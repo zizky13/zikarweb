@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Zikar's Site</title>
+  </head>
+
+  <body>
+    <section id="header">
+      <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+           <span class="fs-4 text-heading">ZN</span>
+          </a>
+
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#header" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#greetings" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Project</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">My Skills</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </header>
+      </div>
+    </section>
+
+    <section id="name" class="container-name">
+      <div class="container">
+        <div class="container col-xxl-8 py-5">
+          <div class="row flex-lg-row align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img
+                src="./images/name.png"
+                class="d-block mx-lg-auto img-fluid"
+                alt="Bootstrap Themes"
+                width="700"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1
+                class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-heading"
+              >
+                I'm, Zikar Nurizky
+              </h1>
+              <p class="lead poppins-light">An aspiring software engineer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="greetings">
+      <div class="p-5 text-center bg-body-tertiary">
+        <div class="container py-5">
+          <h1 class="text-body-emphasis text-heading">
+            Ahoy to you, wherever you are!
+          </h1>
+          <img
+            src="./images/zikar-profile.jpg"
+            class="profile-picture my-4"
+            alt="Zikar's photo"
+          />
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4 poppins-light">
+              I'm Zikar, a informatics student at the Universitas Pembangunan Jaya. I'm passionate about technology and I'm always eager to
+              learn new things. I'm currently learning machine learning and web development. I'm
+              excited to explore the endless possibilities of these field.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <a class="btn btn-primary text-bg-theme btn-lg px-4 gap-3 poppins-light text-bg-theme hover-zoom" href="resume.html">Head to my resume</a>
+              <a class="btn btn-outline-secondary btn-lg px-4 gap-3 poppins-light hover-zoom" href="./resource/Zikar Nurizky_CV_ATS (1 Aug 24).pdf" download>Or Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 text-heading border-bottom border-secondary">
+          Projects
+        </h2>
+
+        <div class="cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col py-4">
+            <a href="https://github.com/zizky13/Regrant" class="text-decoration-none">
+             <div class="card card-cover h-100 overflow-hidden text-bg-theme rounded-4 shadow-lg hover-zoom">
+              <img src="./images/regrant.png" alt="regrant">
+              </img>
+                    <div class="card-img-overlay d-flex flex-column h-100 p-0 text-white text-shadow-1">
+                <h3
+                  class="display-5 lh-1 fw-bold text-heading text-start text-bg-theme p-2"
+                >
+                  Regrant
+                </h3>
+              </div>
+              <h2 class="text-detail p-3 word-wrap">Regrant is a secondhand resource sharing app that lets people hand over their secondhand goods to their neighbor</h2>
+            </div>
+          </a>
+          </div>
+
+
+         <div class="col py-4">
+            <a href="https://github.com/zizky13/WaterWise" class="text-decoration-none">
+             <div class="card card-cover h-100 overflow-hidden text-bg-theme rounded-4 shadow-lg hover-zoom">
+              <img src="./images/waterwise.png" alt="regrant">
+              </img>
+                    <div class="card-img-overlay d-flex flex-column h-100 p-0 text-white text-shadow-1">
+                <h3
+                  class="display-5 lh-1 fw-bold text-heading text-start text-bg-theme p-2"
+                >
+                  Waterwise
+                </h3>
+                </div>
+                  <h2 class="text-detail p-3 word-wrap">WaterWise is a to-do app that integrated with machine learning model. In this app, all task that uses water will be detected and estimated the amount used for that task.</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container px-4 py-5" id="hanging-icons">
+        <h2 class="pb-2 text-heading border-bottom border-secondary text-end">Skills</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30px"
+                fill="currentColor"
+                class="bi bi-robot"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6 12.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5M3 8.062C3 6.76 4.235 5.765 5.53 5.886a26.6 26.6 0 0 0 4.94 0C11.765 5.765 13 6.76 13 8.062v1.157a.93.93 0 0 1-.765.935c-.845.147-2.34.346-4.235.346s-3.39-.2-4.235-.346A.93.93 0 0 1 3 9.219zm4.542-.827a.25.25 0 0 0-.217.068l-.92.9a25 25 0 0 1-1.871-.183.25.25 0 0 0-.068.495c.55.076 1.232.149 2.02.193a.25.25 0 0 0 .189-.071l.754-.736.847 1.71a.25.25 0 0 0 .404.062l.932-.97a25 25 0 0 0 1.922-.188.25.25 0 0 0-.068-.495c-.538.074-1.207.145-1.98.189a.25.25 0 0 0-.166.076l-.754.785-.842-1.7a.25.25 0 0 0-.182-.135"
+                />
+                <path
+                  d="M8.5 1.866a1 1 0 1 0-1 0V3h-2A4.5 4.5 0 0 0 1 7.5V8a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v1a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1v-.5A4.5 4.5 0 0 0 10.5 3h-2zM14 7.5V13a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.5A3.5 3.5 0 0 1 5.5 4h5A3.5 3.5 0 0 1 14 7.5"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Machine Learning</h3>
+              <p>
+                I created a model using Scikit-Learn to predict water usage in WaterWise. This project utilize Linear Regression to predict the water usage and flask as web framework.
+              </p>
+            </div>
+          </div>
+
+          
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+                <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis mb-2">Cross-platform Development</h3>
+              <p>
+                I created a mobile app using React Native to help people share their secondhand goods in Regrant. This app is available in both Android and iOS.
+              </p>
+            </div>
+          </div>
+
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-code-slash"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis mb-2">Website Development</h3>
+              <p>I currently learning website development.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container px-4 py-5" id="hanging-icons">
+        <h2 class="pb-2 text-heading border-bottom border-secondary text-center">Reach Me Out</h2>
+        
+
+        <h2 class="lead text-body-emphasis poppins-light text-center pt-2">
+          I'm always open to new opportunities and collaborations. <br>Feel free to reach out to me through the following platforms:
+        </h2>
+
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 justify-content-center align-items-center">
+          <div class="col d-flex align-items-center justify-content-center">
+            
+            <a href="https://github.com/zizky13" class="text-decoration-none hover-zoom">
+              <div
+                class="contact-icon text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg>
+              </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/zikar-nurizky/" class="text-decoration-none hover-zoom">
+              <div
+              class="contact-icon text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                </svg>
+              </div>
+            </a>
+          
+          </div>
+        </div>
+      
+      </div>
+    </section>
+
+    <section id="footer" class="footer-bg-theme">
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">@Zikar Nurizky</span>
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#header">
+                Home
+              </a>
+            </li>
+
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#greetings">
+                About Me
+              </a>
+            </li>
+            
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#projects">
+                Projects
+              </a>
+            </li>
+
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#skills">
+                My Skills
+              </a>
+            </li>
+
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#contact">
+                Contact
+              </a>
+            </li>
+            
+          </ul>
+        </footer>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
